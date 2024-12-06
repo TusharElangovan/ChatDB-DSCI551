@@ -11,7 +11,7 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 
 - **SQL Query Generation:**
   - Supports relational database operations such as `SELECT`, `JOIN`, `WHERE`, `GROUP BY`, and `ORDER BY`.
-  - Compatible with MySQL, PostgreSQL, and other relational databases.
+  - Compatible with MySQL, MongoDB.
 
 - **NoSQL Query Generation:**
   - Generates NoSQL queries for MongoDB, including `$match`, `$group`, and `$project` operations.
@@ -47,7 +47,7 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
   - `NLTK`, `spaCy`: For natural language processing.
   - `PyMongo`: For MongoDB interaction.
   - `Pandas`: For dataset handling and manipulation.
-- **Databases:** MySQL, PostgreSQL, MongoDB
+- **Databases:** MySQL, MongoDB
 
 ## How It Works
 

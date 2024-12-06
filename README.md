@@ -45,7 +45,6 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 - **Programming Language:** Python
 - **Libraries and Frameworks:**
   - `NLTK`, `spaCy`: For natural language processing.
-  - `SQLAlchemy`: For SQL query construction and execution.
   - `PyMongo`: For MongoDB interaction.
   - `Pandas`: For dataset handling and manipulation.
 - **Databases:** MySQL, PostgreSQL, MongoDB
@@ -53,7 +52,6 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 ## How It Works
 
 1. **Database Connection:**
-   - Configure your database credentials in `config.json`.
    - ChatDB establishes a connection to the specified SQL or MongoDB server.
 
 2. **Data Interaction:**

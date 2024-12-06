@@ -30,7 +30,6 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 
 - **Data Upload and Fetch:**
   - Enables users to upload datasets (e.g., CSV files) to the connected databases.
-  - Fetches data in real-time for visualization or further analysis.
 
 - **Random Query Suggestions:**
   - Analyzes schema and data types to suggest meaningful queries.

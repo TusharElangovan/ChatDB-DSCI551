@@ -49,3 +49,24 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
   - `PyMongo`: For MongoDB interaction.
   - `Pandas`: For dataset handling and manipulation.
 - **Databases:** MySQL, PostgreSQL, MongoDB
+
+## How It Works
+
+1. **Database Connection:**
+   - Configure your database credentials in `config.json`.
+   - ChatDB establishes a connection to the specified SQL or MongoDB server.
+
+2. **Data Interaction:**
+   - Upload data using the `upload_data` module, which accepts files like CSV and maps them to the database schema.
+   - Fetch data using natural language or generated queries.
+
+3. **Query Generation:**
+   - User inputs a query in natural language.
+   - ChatDB translates the query into SQL/NoSQL syntax, taking schema and data types into account.
+
+4. **Random Query Suggestions:**
+   - ChatDB scans the schema for columns like dates, numbers, and text to suggest useful queries.
+
+5. **Execution and Results:**
+   - Queries can be executed directly from the tool, and results are displayed in tabular or JSON format.
+

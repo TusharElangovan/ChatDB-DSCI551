@@ -20,9 +20,6 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
   - Uses semantic matching to align user input with database schema.
   - Recommends indexes to optimize database performance.
 
-- **Error Handling and Suggestions:**
-  - Detects errors in user input and provides actionable suggestions.
-
 ### New Features
 - **Database Connectivity:**
   - Allows users to connect to SQL and MongoDB servers via configuration.

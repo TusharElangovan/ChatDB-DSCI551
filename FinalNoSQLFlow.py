@@ -465,7 +465,10 @@ def parse_query(user_query, available_fields, field_types):
                 query.update(filter_conditions[0])
             elif len(filter_conditions) > 1:
                 query["$and"] = filter_conditions
-
+    # set limit/skip for normal pipeline            
+    limit = categorized_tokens.get("limit")
+    skip = categorized_tokens.get("skip")
+    
     # Default to projecting all fields if no projection
     if not projection:
         projection = None

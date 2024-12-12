@@ -88,6 +88,6 @@ ChatDB is a versatile query-generation tool that bridges the gap between natural
    ```bash
    git clone https://github.com/TusharElangovan/ChatDB-DSCI551.git
    ```
-2. **Ensure the SQL and MongoDB Servers are running
-3. Execute the MainDriver.py file
+2. **Ensure the SQL and MongoDB Servers are running**
+3. **Execute the MainDriver.py file**
    

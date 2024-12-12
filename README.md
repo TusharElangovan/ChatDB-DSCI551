@@ -41,8 +41,8 @@ ChatDB is a versatile query-generation tool that bridges the gap between natural
 - **Random Query Suggestions:**
   - Analyzes schema and data types to suggest meaningful queries.
   - Examples:
-    - For a table with `date_of_birth`, suggests: *"Select all date_of_birth after 1990."*
-    - For a collection with `price`, suggests: *"Show price above $50."*
+    - For a table with `date_of_birth`, suggests: *"Select all date_of_birth greater than 1990."*
+    - For a collection with `price`, suggests: *"Show price lower than $50."*
 
 - **Interactive Query Testing:**
   - Executes queries directly and displays results in a console or web interface.
@@ -88,20 +88,4 @@ ChatDB is a versatile query-generation tool that bridges the gap between natural
    ```bash
    git clone https://github.com/TusharElangovan/ChatDB-DSCI551.git
    ```
-
-2. **Navigate to the Project Directory:**
-   ```bash
-   cd ChatDB-DSCI551
-   ```
-
-3. **Install Dependencies:**
-   Use `pip` to install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Main Script:**
-   Start the application by running:
-   ```bash
-   python main.py
    

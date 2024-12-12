@@ -1,4 +1,5 @@
 # ChatDB-DSCI551
+
 ## Project Overview
 ChatDB is a versatile query-generation tool designed to bridge the gap between natural language and database operations. It supports both SQL and NoSQL databases, enabling users to interact with their data seamlessly. In addition to query translation, ChatDB allows users to **connect to SQL and MongoDB servers**, **upload and fetch data**, and even **generate random query suggestions** based on schema and data types.
 
@@ -64,3 +65,17 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 5. **Execution and Results:**
    - Queries can be executed directly from the tool, and results are displayed in tabular or JSON format.
 
+## Download and Installation Instructions
+
+### Prerequisites
+- Python 3.8 or higher
+- MySQL Server (for SQL database operations)
+- MongoDB (for NoSQL database operations)
+
+### Steps to Download and Install
+
+1. **Clone the Repository:**
+   Open your terminal or command prompt and run the following command:
+   ```bash
+   git clone https://github.com/TusharElangovan/ChatDB-DSCI551.git
+   

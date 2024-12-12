@@ -5,17 +5,25 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 
 ## Features
 
+### Files
+- **Main Driver.py
+  - Contains the code that handles both SQL and MongoDB query generation and execution.
+- **FinalSQLFlow.py
+  - Handles the SQl Part of the program, converting user's natural language to SQL Queries, random query       generation, and direct SQL query execution
+- **FinalNoSQLFlow.py
+  - Handles the MongoDB Part of the program, converting user's natural language to MongoDB Queries, random     query generation,n and direct SQL query execution
+
 ### Core Features
 - **Natural Language Query Parsing:**
   - Converts natural language queries into SQL and NoSQL queries.
   - Handles complex operations like filtering, joins, and aggregations.
 
 - **SQL Query Generation:**
-  - Supports relational database operations such as `SELECT`, `JOIN`, `WHERE`, `GROUP BY`, and `ORDER BY`.
-  - Compatible with MySQL, MongoDB.
+  - Supports relational database operations such as `SELECT`, `JOIN`, `WHERE`, `GROUP BY`, and `ORDER BY.`
+  - Compatible with MySQL and MongoDB.
 
 - **NoSQL Query Generation:**
-  - Generates NoSQL queries for MongoDB, including `$match`, `$group`, and `$project` operations.
+  - Generates NoSQL queries for MongoDB, including `$match,` `$group,` and `$project` operations.
 
 - **Schema Matching and Optimization:**
   - Uses semantic matching to align user input with database schema.

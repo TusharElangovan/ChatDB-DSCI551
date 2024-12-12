@@ -32,8 +32,8 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 - **Random Query Suggestions:**
   - Analyzes schema and data types to suggest meaningful queries.
   - Example:
-    - For a table with `date_of_birth`, suggests: *"Find all entries born after 1990."*
-    - For a collection with `price`, suggests: *"Retrieve items priced above $50."*
+    - For a table with `date_of_birth`, suggests: *"select all date_of_birth after 1990."*
+    - For a collection with `price`, suggests: *"Show price above $50."*
 
 - **Interactive Query Testing:**
   - Allows users to execute queries directly and view the results in a console or web interface.
@@ -52,7 +52,7 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
    - ChatDB establishes a connection to the specified SQL or MongoDB server.
 
 2. **Data Interaction:**
-   - Upload data using the `upload_data` module, which accepts files like CSV and maps them to the database schema.
+   - Upload data using the `upload_data` function, which accepts files like CSV and maps them to the database schema.
    - Fetch data using natural language or generated queries.
 
 3. **Query Generation:**

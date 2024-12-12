@@ -6,9 +6,9 @@ ChatDB is a versatile query-generation tool designed to bridge the gap between n
 ## Features
 
 ### Files
-- ** Main Driver.py
+- Main Driver.py
   - Contains the code that handles both SQL and MongoDB query generation and execution.
-- ** FinalSQLFlow.py
+- FinalSQLFlow.py
   - Handles the SQl Part of the program, converting user's natural language to SQL Queries, random query       generation, and direct SQL query execution
 - **FinalNoSQLFlow.py
   - Handles the MongoDB Part of the program, converting user's natural language to MongoDB Queries, random     query generation,n and direct SQL query execution
